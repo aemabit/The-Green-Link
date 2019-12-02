@@ -87,6 +87,17 @@
   background-color: rgba(11, 116, 11, 1);
 }
 
+@media (max-device-width:1680px) {
+  .Modal {
+    position: fixed;
+    top: 40px;
+    left: 310px;
+    right: 310px;
+    bottom: 40px;
+    background-color: #ffffff;
+  }
+}
+
 @media (max-device-width:1367px) {
   .Modal {
     position: fixed;
